@@ -1,0 +1,5 @@
+name: Customix
+version: '${project.version}'
+main: fr.lataverne.customix.Customix
+api-version: 1.19
+load: STARTUP
