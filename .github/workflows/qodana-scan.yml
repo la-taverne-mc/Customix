@@ -16,6 +16,6 @@ jobs:
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@main
         with:
-          profile: "Project_Default.xml"
+          profile-name: "Project_Default.xml"
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
