@@ -3,3 +3,5 @@ linter: jetbrains/qodana-jvm-community:2022.3
 failThreshold: 0
 profile:
   name: "Project Default"
+exclude:
+  - name: SpellCheckingInspection
